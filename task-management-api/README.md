@@ -2,6 +2,12 @@
 
 ## Descrição
 API para gerenciamento de tarefas utilizando Flask.
+ 
+ ## Funcionalidades:
+GET /tasks: Lista todas as tarefas
+POST /tasks: Cria uma nova tarefa
+PUT /tasks/{id}: Atualiza uma tarefa existente
+DELETE /tasks/{id}: Remove uma tarefa
 
 ## Instalação
 1. Clone o repositório:
